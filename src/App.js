@@ -3,7 +3,7 @@ import './App.css';
 
 // Components
 import Nav from './components/Nav'
-import FormNewTask from './components/upload-tasks-form';
+import FormNewTask from './components/upload-tasks-form.jsx';
 import GetTasks from './components/Get-tasks'
 
 class App extends Component {
