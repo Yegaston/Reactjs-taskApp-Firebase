@@ -37,6 +37,7 @@ export default class formNewTask extends Component {
                 e.preventDefault();
             } else {
                 M.toast({html: 'Title or description empty'});
+                e.preventDefault();
             }
         }
         catch (err) {
